@@ -341,6 +341,7 @@ img{
   font-weight: 600;
   position: relative;
   left: 35%;
+  bottom: 30px;
 }
 
 .work-link:hover {
@@ -356,7 +357,7 @@ img{
   font-weight: 600;
   position: relative;
   left: 35%;
-  bottom: 30px;
+  bottom: 50px;
 }
 
 .work-link-flix:hover {
