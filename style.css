@@ -162,6 +162,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  font-size: 48px;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -324,22 +325,43 @@ img{
 .work__img img{
   transition: 1s;
   cursor: pointer;
+  height: 500px;
+  width: 333px;
+  transform: scale(1.2);
 }
 .work__img img:hover{
-  transform: scale(1.1);
+  transform: scale(1.25);
 }
 
 .work-link {
-  position: relative;
-  bottom: 0;
-  left: 35%;
-  margin-bottom: 5px;
+  background-color: #bada55;
+  padding: 5px;
+  border: 1px solid #2b2d2f;
+  border-radius: 5px;
   font-weight: 600;
+  position: relative;
+  left: 35%;
 }
 
 .work-link:hover {
-  color: #bada55;
-  transform: scale(1.1);
+  color: white;
+  transform: scale(1.8);
+}
+
+.work-link-flix {
+  background-color: #bada55;
+  padding: 5px;
+  border: 1px solid #2b2d2f;
+  border-radius: 5px;
+  font-weight: 600;
+  position: relative;
+  left: 35%;
+  bottom: 30px;
+}
+
+.work-link-flix:hover {
+  color: white;
+  transform: scale(1.8);
 }
 
 /* ===== CONTACT =====*/
